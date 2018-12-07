@@ -25,7 +25,7 @@ RUN apk add --no-cache curl \
 
 	&& mv terraform /usr/bin \
 
-	&& rm -rf terraform.zip 
+	&& rm -rf terraform.zip \
 
 	&& ls
 
