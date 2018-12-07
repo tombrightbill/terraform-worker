@@ -2,4 +2,4 @@
 
 terraform --version
 
-ls
+pwd
