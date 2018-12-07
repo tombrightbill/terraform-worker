@@ -3,3 +3,5 @@
 terraform --version
 
 pwd
+
+ls
