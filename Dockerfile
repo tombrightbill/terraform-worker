@@ -27,6 +27,8 @@ RUN apk add --no-cache curl \
 
 	&& rm -rf terraform.zip 
 
+ADD main.tf /main.tf
+
 ADD entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
