@@ -2,4 +2,4 @@
 
 terraform --version
 
-cat main.tf
+ls
