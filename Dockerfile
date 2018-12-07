@@ -29,8 +29,8 @@ RUN apk add --no-cache curl \
 
 	&& ls
 
-ADD main.tf /main.tf
+COPY main.tf /main.tf
 
-ADD	entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
