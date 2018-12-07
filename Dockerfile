@@ -13,9 +13,7 @@ RUN apk add --no-cache curl \
 
 	&& apk add --no-cache jq \
 
-	&& terraform_url=$(curl https://releases.hashicorp.com/ind
-	ex.json | jq '{terraform}' | egrep "linux.*amd64" | sort -r
-	 | head -1 | awk -F[\"] '{print $4}') \
+	&& terraform_url=$(curl https://releases.hashicorp.com/index.json | jq '{terraform}' | egrep "linux.*amd64" | sort -r | head -1 | awk -F[\"] '{print $4}') \
 
 	&& mkdir terraform && cd terraform \
 
