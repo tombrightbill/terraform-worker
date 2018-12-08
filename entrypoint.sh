@@ -1,9 +1,7 @@
 #!/bin/sh
 
-terraform --version
+terraform init
 
-pwd
+terraform plan
 
-ls
-
-cat /main.tf
+terraform apply

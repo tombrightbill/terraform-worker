@@ -1,6 +1,6 @@
 provider "cloudflare" {
   version = "~> 1.9"
-  email = "$(CF_EMAIL"
+  email = "$(CF_EMAIL)"
   token = "$(CLOUDFLARE_TOKEN)"
 }
 
