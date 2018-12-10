@@ -1,14 +1,8 @@
 #!/bin/sh
 
-cd /github/home
-
-echo '/github/home directory below'
-
-ls
+mv /main.tf /github/workspace
 
 cd /github/workspace
-
-echo '/github/home directory below'
 
 ls
 
