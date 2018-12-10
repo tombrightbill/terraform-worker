@@ -6,5 +6,5 @@ provider "cloudflare" {
 
 resource "cloudflare_worker_script" "worker" {
   zone    = "$(CF_ZONE)"
-  content = "${file("$(CF_WORKER)")}"
+  content = "${file("hello-world.js")}"
 }
