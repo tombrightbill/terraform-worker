@@ -8,6 +8,12 @@ ls
 
 echo $CF_WORKER
 
+cd /github/
+
+echo 'githubworkspace'
+
+ls
+
 terraform init
 
 terraform plan
