@@ -2,11 +2,7 @@
 
 mv /main.tf /github/workspace
 
-cd /github/workspace
-ls
-
-
-terraform init
+terraform init -var-file='/github/workspace/main.tf'
 
 terraform plan
 
