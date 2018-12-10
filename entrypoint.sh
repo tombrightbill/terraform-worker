@@ -4,15 +4,8 @@ mv /main.tf /github/workspace
 
 cd /github/workspace
 
-ls
+export $CF_WORKER=hello-world.js
 
-echo $CF_WORKER
-
-cd /github/
-
-echo 'githubworkspace'
-
-ls
 
 terraform init
 
