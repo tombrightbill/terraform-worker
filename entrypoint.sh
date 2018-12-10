@@ -6,6 +6,8 @@ cd /github/workspace
 
 ls
 
+echo $CF_WORKER
+
 terraform init
 
 terraform plan
