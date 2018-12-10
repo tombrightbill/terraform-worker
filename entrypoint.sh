@@ -1,8 +1,14 @@
 #!/bin/sh
 
-cd /
+cd /github/home
 
-pwd
+echo '/github/home directory below'
+
+ls
+
+cd /github/workspace
+
+echo '/github/home directory below'
 
 ls
 
