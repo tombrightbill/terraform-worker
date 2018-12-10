@@ -6,8 +6,8 @@ echo $CF_WORKER
 
 ls
 
-terraform init 
+terraform init
 
 terraform plan
 
-terraform apply
+terraform apply --auto-approve
